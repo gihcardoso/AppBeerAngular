@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-wr {
+    flex-wrap: wrap;
+}
+
+.flex-ch {
+    justify-content: center;
+}
+
+.flex-ri {
+    justify-content: flex-end;
+}
+
+.flex-bv {
+    align-items: flex-end;
+}
+
+.flex-le {
+    justify-content: flex-start;
+}
+
+.flex-sp {
+    justify-content: space-between;
+}
+
+.flex-sa {
+    justify-content: last-baseline;
+    padding-top: 50px;
+}
+
+.flex-cv {
+    align-items: center;
+}
